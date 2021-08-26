@@ -1,0 +1,235 @@
+/* 
+
+<!-- 
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+-->
+<!-- Shubham Sambhaji Sawant -->
+<!-- instagram : @shubhams1401-->
+*/
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.stop-scrolling{
+	overflow: hidden;
+}
+.logo-font{
+	font-family: 'Rozha One', serif;
+}
+.header{
+	width: 100%;
+	height: 12vh;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #c2c1c0;
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	text-align: left;
+	margin-left: 20px;
+	width: 40%;
+	display: flex;
+	align-items: center;
+}
+.logo h3{
+	font-size: 30px;
+	margin-left: 15px;
+}
+.logo-img{
+	width: 10%;
+	height: 2%;
+}
+.menu ul{
+	display: flex;
+}
+.menu ul li{
+	margin-left: 50px;
+	margin-right: 50px;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+.background-main{
+	height: 70vh;
+	margin: 15px 15px 15px 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(252, 144, 3, 0.9), rgba(252, 144, 3, 0.5), rgba(252, 144, 3, 0.9));
+	border-bottom-left-radius: 150px;
+	border-top-right-radius: 150px;
+	box-shadow: 0 0 50px black;
+}
+.background-main h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 130px;
+}
+.background-main h3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+}
+.menu-tag{
+	width: 100%;
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+}
+.menu-tag h3{
+	padding: 15px 80px 15px 80px;
+	color: black;
+	background-color: orange;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	box-shadow: 0 0 10px black;
+}
+.dishesh-menu{
+	margin-top: 20px;
+	width: 100%;
+	height: 84vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sub-menu{
+	width: 48%;
+	height: 100%;
+	overflow: hidden;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding: 0 10px 0 10px;
+}
+.sub-menu h3{
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+    font-family: 'Merienda One', cursive;
+}
+.marquee-dish{
+	width: 100%;
+	height: 98%;
+}
+.marquee{
+	width: 100%;
+	height: 100%;
+	padding: 0 20px 0 20px;
+}
+.sub-menu-dishesh{
+	width: 93%;
+	height: 260px;
+	display: flex;
+}
+.sub-menu-dishesh img{
+	width: 40%;
+	height: 100%;
+}
+.sub-menu-dishesh p{
+	text-align: justify;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+}
+.dish-name{
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.order{
+	text-decoration: none;
+	color: red;
+	cursor: pointer;
+	margin: 5px 15px 5px 15px;
+}
+.recipe{
+	text-decoration: none;
+	margin: 5px 15px 5px 15px;
+}
+/* 
+
+<!-- 
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////   ////////  ////    //     //  /////////  ////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+//         //     //  //     //  //     //  //     //  //     //  //     //     //  //           //    //     //  //     //    //
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //   ////////    //    /////////  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //         //    //           //  //     //    //
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  ////////   //////         //  /////////  ////// 
+
+ ////////  //     //  //     //  ////////   //     //   ////////   ///////////////  
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+//         //     //  //     //  //     //  //     //  //     //  //     //     //    
+ ///////   /////////  //     //  /////////  /////////  /////////  //     //     //
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+       //  //     //  //     //  //     //  //     //  //     //  //     //     //   
+////////   //     //   ///////   ////////   //     //  //     //  //     //     //  
+
+ ////////   ///////    ///////////////  ////////   //     //   ///////     //////    ///////  
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+//         //     //  //     //     //  //     //  //     //  //     //      //        //    
+ ////////  /////////  //     //     //  /////////  /////////  /////////      //        //
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+       //  //     //  //     //     //  //     //  //     //  //     //      //        //   
+////////   //     //  //     //     //  ////////   //     //  //     //    ///       //////  
+
+ ////////  /////////   //     //     //  ////////    ////////  //////////
+//         //     //   //     //     //  //     //  //     //      //    
+//         //     //   //     //     //  //     //  //     //      //    
+ ///////   /////////   //     //     //  /////////  //     //      //
+       //  //     //   //     //     //  //     //  //     //      //   
+       //  //     //   //     //     //  //     //  //     //      //   
+////////   //     //    //////////////   //     //  //     //      //
+-->
+<!-- Shubham Sambhaji Sawant -->
+<!-- instagram : @shubhams1401-->
+*/
